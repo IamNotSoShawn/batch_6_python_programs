@@ -19,3 +19,7 @@ def remove_leading_spaces(s):
             result += char
             found_char = True
     return result
+
+text = "   Hello World"
+print("Before:", repr(text))
+print("After :", repr(remove_leading_spaces(text)))
