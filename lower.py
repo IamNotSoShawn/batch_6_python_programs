@@ -9,6 +9,7 @@
 #Output the new string
 #End
 
+
 def mylower(s):
     result = ""
     for c in s:
