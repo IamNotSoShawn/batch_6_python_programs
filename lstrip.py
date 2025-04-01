@@ -11,15 +11,8 @@
 #End 
 
 
-def remove_leading_spaces(s):
-    result = ""
-    found_char = False
-    for char in s:
-        if char != " " or found_char:
-            result += char
-            found_char = True
-    return result
-
-text = "   Hello World"
-print("Before:", repr(text))
-print("After :", repr(remove_leading_spaces(text)))
+def custom_lstrip(s):
+    i = 0
+    while i < len(s) and s[i] == " ":
+        i += 1
+    return s[i:]

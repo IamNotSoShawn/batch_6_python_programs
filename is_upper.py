@@ -1,6 +1,5 @@
 #Pseudo code for my version of isupper function
 
-
 #Begin
 #Input: Read a string
 #Loop through each character in the string:
