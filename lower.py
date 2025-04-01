@@ -13,7 +13,7 @@ def mylower(s):
     result = ""
     for c in s:
         if 'A' <= c <= 'Z': 
-#Adding 32 to the ascii value of the invidual letters turns them into their capital counterpart
+#Adding 32 to the ascii value of the invidual letters turns them into their capital counterpart, sir if this looks too advanced I could have also used uppercase.index as well
             result += chr(ord(c) + 32)  
         else:
             result += c  

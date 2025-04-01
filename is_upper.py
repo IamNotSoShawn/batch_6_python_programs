@@ -7,3 +7,12 @@
 #If no lowercase letters are found, return True
 #Output the result
 #End
+
+def my_uppercase_check(text):
+    for letter in text:
+        if letter >= 'a' and letter <= 'z':  
+            return False  
+    return True 
+
+userinput = input("Enter anything: ")
+print(my_uppercase_check(userinput))
