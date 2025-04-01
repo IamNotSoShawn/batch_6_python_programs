@@ -9,3 +9,13 @@
 #Output the new string
 #End
 
+def mylower(s):
+    result = ""
+    for c in s:
+        if 'A' <= c <= 'Z': 
+#Adding 32 to the ascii value of the invidual letters turns them into their capital counterpart
+            result += chr(ord(c) + 32)  
+        else:
+            result += c  
+    return result
+
