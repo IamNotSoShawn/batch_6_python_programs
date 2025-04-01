@@ -17,6 +17,5 @@ def custom_lstrip(s):
         i += 1
     return s[i:]
 
-# User Input
 text = input("Enter a string with leading spaces: ")
 print(f"Stripped: '{custom_lstrip(text)}'")

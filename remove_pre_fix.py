@@ -7,3 +7,12 @@
 #If no, keep the string as it is
 #Output the modified string
 #End
+
+def custom_removeprefix(s, prefix):
+    if s.startswith(prefix):
+        return s[len(prefix):]
+    return s
+
+text = input("Enter a string: ")
+prefix = input("Enter a prefix to remove: ")
+print(f"Modified: '{custom_removeprefix(text, prefix)}'")
