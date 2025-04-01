@@ -9,7 +9,6 @@
 #Output the new string
 #End
 
-
 def mylower(s):
     result = ""
     for c in s:
@@ -20,3 +19,6 @@ def mylower(s):
             result += c  
     return result
 
+#Function usage
+userinput = input("Enter a string: ")
+print(mylower(userinput))
